@@ -1,0 +1,14 @@
+# 编辑器
+.vs/
+.vscode/
+.atom/
+.idea/
+
+# 系统
+*.log
+*.ini
+.DS_Store
+
+# 工程
+dist/
+node_modules/

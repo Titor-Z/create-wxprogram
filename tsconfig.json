@@ -1,0 +1,13 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "target": "ESNext",
+    "allowJs": true,
+    "pretty": true,
+    "typeRoots": ["@types"],
+    "lib": ["ESNext", "ESNext.Promise"],
+    "outDir": "dist",
+    "sourceMap": true
+  },
+  "exclude": ["dist"]
+}
