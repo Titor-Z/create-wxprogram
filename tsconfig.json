@@ -2,9 +2,10 @@
   "compileOnSave": true,
   "compilerOptions": {
     "target": "ESNext",
+    "module": "CommonJS",
     "allowJs": true,
     "pretty": true,
-    "typeRoots": ["@types"],
+    "typeRoots": ["./node_modules/@types"],
     "lib": ["ESNext", "ESNext.Promise"],
     "outDir": "dist",
     "sourceMap": true
